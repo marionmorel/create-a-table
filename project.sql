@@ -27,4 +27,4 @@ WHERE id = 1;
 
 -- Task 6
 ALTER TABLE friends
-ADD COLUMN email TEXT; 
+ADD COLUMN email TEXT;
