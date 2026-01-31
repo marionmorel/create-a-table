@@ -45,3 +45,7 @@ WHERE id = 3;
 -- Task 8
 DELETE FROM friends
 WHERE id = 1;
+
+-- Task 9
+SELECT *
+FROM friends;
