@@ -19,3 +19,8 @@ VALUES (2, 'BFF One', '1997-03-11');
 
 INSERT INTO friends (id, name, birthday)
 VALUES (3, 'BFF Two', '1995-09-10');
+
+-- Task 5
+UPDATE friends
+SET name = 'Storm'
+WHERE id = 1;
