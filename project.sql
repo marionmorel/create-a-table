@@ -1,8 +1,8 @@
 -- Task 1
 CREATE TABLE friends (
-    id int,
-    name text,
-    birthday date
+    id INTEGER,
+    name TEXT,
+    birthday DATE
 );
 
 -- Task 2
@@ -24,3 +24,7 @@ VALUES (3, 'BFF Two', '1995-09-10');
 UPDATE friends
 SET name = 'Storm'
 WHERE id = 1;
+
+-- Task 6
+ALTER TABLE friends
+ADD COLUMN email TEXT; 
