@@ -28,3 +28,16 @@ WHERE id = 1;
 -- Task 6
 ALTER TABLE friends
 ADD COLUMN email TEXT;
+
+-- Task 7
+UPDATE friends
+SET email = 'storm@codecademy.com'
+WHERE id = 1;
+
+UPDATE friends
+SET email = 'bff1@email.com'
+WHERE id = 2;
+
+UPDATE friends
+SET email = 'bff2@email.com'
+WHERE id = 3;
