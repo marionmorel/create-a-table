@@ -41,3 +41,7 @@ WHERE id = 2;
 UPDATE friends
 SET email = 'bff2@email.com'
 WHERE id = 3;
+
+-- Task 8
+DELETE FROM friends
+WHERE id = 1;
